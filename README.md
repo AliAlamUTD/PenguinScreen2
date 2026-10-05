@@ -33,20 +33,12 @@ profiles folder and they're live on next boot.
 
 ## Mods 
 
-**Conversions the community wrote** stay theirs. A total conversion boots with 
-the serial of the game it was built from. PenguinScreen2 tells those discs apart 
-by CRC, lists them under the mod's own name and version, and offers the settings 
-that disc needs Extended RAM, the matching texture pack for that game only, with your say-so. 
-A small YAML file of ours (or yours) is what makes the emulator treat it as that mod.
+**Conversions the community wrote** A total conversion boots with the serial of the game it was built from. PenguinScreen2 tells those discs apart 
+by CRC, lists them under the mod's own name and version, and offers the settings that disc needs such as Extended RAM, the matching texture pack for that game only, or other mod requiremnets. A small YAML file of ours (or yours) is what makes the emulator treat it as that mod.
 
 Same shape as VR profiles: one versioned file per patch or conversion, drop it in your `vrmods` folder, live on next boot.   
 
-**Patches we wrote.** NASCAR Thunder 2004 - The retail cockpit is a forward view only. 
-dash, cage, window net, so turning your head in VR looked through holes. 
-the cage mirrored behind the camera. PenguinScreen2 clips that cage, then draws your own car 
-around you (the game normally hides it in cockpit view) and blacks out the inside of the shell. 
-You sit in the cabin instead of looking at the back of the livery. The original window net stays, 
-with more of the same squares so a look left still has net. 
+**Patches we wrote.** NASCAR Thunder 2004 - The retail cockpit is a forward view only. PenguinScreen2 clips the vehicle cage, then draws your own car around you (the game normally hides it in cockpit view) and blacks out the inside of the shell. You sit in the cabin instead of looking at the back of the livery. The original window net stays, with more of the same squares so a look left still has net. 
 
 A typical PS2 cheat (a pnach) is a poke into the Emotion Engine, the CPU. This patch also rewrites VU1, the chip that transforms and draws the car - that is how the cage can clip and the interior can go black without a custom emulator.
 
